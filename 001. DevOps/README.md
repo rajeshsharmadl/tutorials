@@ -57,7 +57,7 @@ A group of people responsible for development of project(s) and include develope
 #### Board
 Boards are used to defining tasks/work items, report bugs, track progress, share user stories, reporting, etc.
 
-##### Uses of Board
+**Uses of Board**
 - Manage and track work
 - Provides a clear picture of tasks undertaken/in progress/completed by team members
 - Allow access to stakeholders to view progress of development
@@ -65,14 +65,14 @@ Boards are used to defining tasks/work items, report bugs, track progress, share
 - Manage backlog
 - Various reports
 
-##### Who will work on Board:
+**Who will work on Board:**
 - Entire team
 - Development team will work related to their tasks, bugs, features, etc.
 - Product owner (PO) will manage backlog
 - Stakeholder will see the progress
 - Scrum master will get various reports pertaining to progress of project
 
-##### Types of Board
+**Types of Board**
 DevOps has four types of processes or project namely Basic, Agile, Scrum and CMMI and user can select any type while creating the project. Type of board i.e. work items and work flow available will depend on what user selects.
 
 **Work Flow**
@@ -91,44 +91,46 @@ A collection of work items to be developed in the future. It is used to quickly 
 **Kanban Board**
 Kanban is a japanese word for 'Visual Signals' and these signals are used to display several units in a way that user can identify each item state by looking at the unit's visual state. Various colors, positions or other designs are used in Kanban board to make it easy for user to understand.
 
-## Basic Process
+#### Basic Process
 
-Work Flow in Basic process
-? Basic process work flow follows: ToDo -> In Progress -> Done
+**Work Flow in Basic process**
 
-Work items in Basic process
-> Epic - It consists of functionalitiies as large which are to be included into the product e.g. Membership
-> Issue - An epic may contain multiple issues like bug, user story, improvement, etc. e.g. Membership may need login, signup, forget password, reset password, etc. requirements
-> Task - For each issue, we can have multiple tasks depending on the nature of the issue. Each task will have a defined work of a particular nature. e.g. for completing each of the above issues, we need to create/change database tables, develop methods for each of the issue, consume thode methods at relevent places, etc.
+ToDo -> In Progress -> Done
 
-Fields/Properties of a work item with Basic process
-> Title - Test containing 255 characters or less. It can be modified later
-> AssignedTo - Team members are assigned the work items so that the development progress can be tracked by all the team members including the assignee. If there is a change/bug/query related to work item completed, allowed members can add the change/bug/query in the work item and change the status so that assigned member can resolve the issue which he can track by using the kanban board
-> State - Represents the current state of work item i.e. ToDo, Doing or Done
-> Reason - Reason is needed which changing the wotk item state
-> Area - A path associated with product or team
-> Iteration - Represents the sprint or iteration in which a work item is to be completed
-> Description - Details about the work item
-> Effort - A relative estimate of time required to complete a work flow
-> Discussion - Used to raise a discussion or add a comment or ask information
-> Start Date - Date on which work item s beginning
-> Target Date - Date till which a work item is supposed to complete
-> Tag - Additional very short detail associates to the work item
-> Priority - Provide the level of urgency about the work item from 1 to 4. 1 says that item is very urgent and to be looked asap and prouct can not be shipped without successfull resolution. 2 says that item is not urgent and can be looked after but product can not be shipped withput successfull resolution. 3 says that resolution of work item is optional depending on resources available, time required and risk involved. 4 says that resolution is not necessary
-> Attachment - Add an attachment to the work item
-> History - It shows all the changes done to the work item
-> State Graph - It shows the changes in state using a graph
+**Work items in Basic process**
 
-Agile Process
--------------
+- Epic - It consists of functionalities as large which are to be included into the product e.g. Membership
+- Issue - An epic may contain multiple issues like bug, user story, improvement, etc. e.g. Membership may need login, signup, forget password, reset password, etc. requirements
+- Task - For each issue, we can have multiple tasks depending on the nature of the issue. Each task will have a defined work of a particular nature. e.g. for completing each of the above issues, we need to create/change database tables, develop methods for each of the issue, consume the methods at relevant places, etc.
 
-Work flow in Agile process - Agile process follows different work flow for different work items:
+**Fields/Properties of a work item with Basic process**
+- Title - Test containing 255 characters or less. It can be modified later
+- AssignedTo - Team members are assigned the work items so that the development progress can be tracked by all the team members including the assignee. If there is a change/bug/query related to work item completed, allowed members can add the change/bug/query in the work item and change the status so that assigned member can resolve the issue which he can track by using the kanban board
+- State - Represents the current state of work item i.e. ToDo, Doing or Done
+- Reason - Reason is needed which changing the wotk item state
+- Area - A path associated with product or team
+- Iteration - Represents the sprint or iteration in which a work item is to be completed
+- Description - Details about the work item
+- Effort - A relative estimate of time required to complete a work flow
+- Discussion - Used to raise a discussion or add a comment or ask information
+- Start Date - Date on which work item s beginning
+- Target Date - Date till which a work item is supposed to complete
+- Tag - Additional very short detail associates to the work item
+- Priority - Provide the level of urgency about the work item from 1 to 4. 1 says that item is very urgent and to be looked asap and prouct can not be shipped without successfull resolution. 2 says that item is not urgent and can be looked after but product can not be shipped withput successfull resolution. 3 says that resolution of work item is optional depending on resources available, time required and risk involved. 4 says that resolution is not necessary
+- Attachment - Add an attachment to the work item
+- History - It shows all the changes done to the work item
+- State Graph - It shows the changes in state using a graph
+
+#### Agile Process
+
+**Work flow in Agile process**
+- Agile process follows different work flow for different work items:
 ? User Story work flow - Work flow in agile process has multiple steps as: New Use Story -> Active (When implementation starts) -> Resolved (Code complete and user tests passed) -> Closed (Acceptance tests passed)
 ? Bug work flow - Work flow for a bug in agile process has following steps: New Bug -> Active (when approved and working starts) -> Resolved (when user make the necessary changes/correction) -> Closed (when bug is verified to be corrected)
 ? User task work flow - User task work flow has following steps: New Task -> Active (when work started) -> Closed (when task completed)
 
-Work items in Agile process
-> Epic - It contains major work items needed in the product. It represents a business initiative. It is considered inside a portfolio backlog.
+**Work items in Agile process**
+- Epic - It contains major work items needed in the product. It represents a business initiative. It is considered inside a portfolio backlog.
 > Feature - These are the shippable component of a software. These are enhancements needed in the product to improve user experience. An epic may contain multiple features.
 > User Story - These are the user requirements. It is considered inside a product backlog.
 > Task - It is the smallest unit of work needed to be done for accomplishment of work item.
