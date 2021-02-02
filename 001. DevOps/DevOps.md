@@ -1,8 +1,8 @@
-DevOps
-======
-It is a culture (not a tool, technology or methodology) of close integration between development, QA & operation teams for smooth development, test and deployment with agility.
+# DevOps
+***
+A culture (not a tool, technology or methodology) of close integration between development, QA & operation teams for smooth development, test and deployment with agility.
 
-> It is a integration of people, process and products to provide maximum value ratio to customer.
+> It is an integration of people, process and products to provide maximum value ratio to customer.
 
 > **DevOps Portal**
 > [https://dev.azure.com](https://dev.azure.com)
@@ -32,11 +32,11 @@ Build & Release						|	Pipelines
 Test								|	Test Plans
 Packages							|	Artifacts
 
-#### Organizations
-It is a collection of groups of people who are collectively working together on various projects inside a particular organization. Each DevOps account can have multiple organizations. Organizations can also be made as/for subgroups as it is easy to separate and handle large number of projects. Each organization have its owl URL e.g. https://dev.azure.com/{organization-name}.
+#### Organization
+It is a collection of related projects. Each DevOps account can have multiple organizations. Organizations can also be made as/for subgroups as it is easy to separate and handle large number of projects. Each organization have its owl URL e.g. https://dev.azure.com/{organization-name}.
 
 #### Project
-It is a single collection of related tasks. This is where entire product development is handled by a particular team and it provides repos for code versioning and place for people to plan, track progress and collaborate. A project can be public or private. It contains a team by name of '{project-name} Team' by default when we create a project.
+It is a collection of related tasks. This is where entire product development is handled by a particular team and it provides repositories for code versioning and place for people to plan, track progress and collaborate. A project can be public or private. It contains a team by name of '{project-name} Team' by default when we create a project but we can add other teams also.
 
 ##### Public Project
 - Visible to everyone
@@ -45,7 +45,7 @@ It is a single collection of related tasks. This is where entire product develop
 - Mostly used for open source projects
 - Unlimited public projects inside any organization
 
-##### Private Projects
+##### Private Project
 - No public visibility
 - Authorised access only
 - Unique URL
@@ -57,7 +57,7 @@ A group of people responsible for development of project(s) and include develope
 #### Board
 Boards are used to defining tasks/work items, report bugs, track progress, share user stories, reporting, etc.
 
-**Uses of Board**
+##### Uses of Board
 - Manage and track work
 - Provides a clear picture of tasks undertaken/in progress/completed by team members
 - Allow access to stakeholders to view progress of development
@@ -65,34 +65,33 @@ Boards are used to defining tasks/work items, report bugs, track progress, share
 - Manage backlog
 - Various reports
 
-**Who will work on Board:**
+##### Who will work on Board:
 - Entire team
 - Development team will work related to their tasks, bugs, features, etc.
 - Product owner (PO) will manage backlog
 - Stakeholder will see the progress
 - Scrum master will get various reports pertaining to progress of project
 
-**Types of Board**
-DevOps has four types of 'work item process' or project namely Basic, Agile, Scrum and CMMI and user can select any type while creating the project. Type of board i.e. work items and work flow available will depend on what user selects.
+##### Types of Board
+DevOps has four types of processes or project namely Basic, Agile, Scrum and CMMI and user can select any type while creating the project. Type of board i.e. work items and work flow available will depend on what user selects.
 
-Work Flow
-? Work flow is various stages of tasks ofproduct development. Multiple tasks can exist during a product development and each task can be on different stage of progress. Each project type or work item type will have different stages depending on project type.
+**Work Flow**
+Work flow is various stages of tasks of product development. Multiple tasks can exist during a product development and each task can be on different stage of progress. Each project type or work item type will have different stages depending on project type.
 
-Work Item
-? Work item is a unit of work which needs to be done in a product. Multiple items co-exist during product development.
+**Work Item**
+Work item is a unit of work which needs to be done in a product. Multiple items co-exist during product development.
 
-Backlog
-? A collection of work items to be developed in the future. It is used to quickly define a requirement which is yet to be started.
+**Backlog**
+A collection of work items to be developed in the future. It is used to quickly define a requirement which is yet to be started.
 
-Types of Backlog
-> Product Backlog - It is an ordered list of all the work items needed to be done in a product
-> Sprint Backlog - Sprint is a planned period of time during which a work item is to be completed and presented for review. It is a collection of work items in ToDo state. We can assign work items and set estimated sprint duration for completion of items.
+**Types of Backlog**
+- Product Backlog - It is an ordered list of all the work items needed to be done in a product
+- Sprint Backlog - Sprint is a planned period of time during which a work item is to be completed and presented for review. It is a collection of work items in ToDo state. We can assign work items and set estimated sprint duration for completion of items.
 
-Kanban Board
-? Kanban is a japanese word for 'Visual Signals' and these signals are used to display several units in a way that user can identify each item state by looking at the unit's visual state. Various colors, positions or other designs are used in Kanban board to make it easy for user to understand.
+**Kanban Board**
+Kanban is a japanese word for 'Visual Signals' and these signals are used to display several units in a way that user can identify each item state by looking at the unit's visual state. Various colors, positions or other designs are used in Kanban board to make it easy for user to understand.
 
-Basic Process
--------------
+## Basic Process
 
 Work Flow in Basic process
 ? Basic process work flow follows: ToDo -> In Progress -> Done
