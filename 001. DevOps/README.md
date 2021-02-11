@@ -37,11 +37,11 @@ Each DevOps culture defines and provides tools to manage tasks, code, tests and 
 
 It is a collection of related projects. Each DevOps account can have multiple organizations. Organizations can also be made as/for subgroups as it is easy to separate and handle large number of projects. Each organization have its owl URL e.g. https://dev.azure.com/{organization-name}.
 
-#### Project
+### Project
 
 It is a collection of related tasks. This is where entire product development is handled by a particular team and it provides repositories for code versioning and place for people to plan, track progress and collaborate. A project can be public or private. It contains a team by name of '{project-name} Team' by default when we create a project but we can add other teams also.
 
-##### Public Project
+#### Public Project
 
 - Visible to everyone
 - No login required to access
@@ -49,18 +49,18 @@ It is a collection of related tasks. This is where entire product development is
 - Mostly used for open source projects
 - Unlimited public projects inside any organization
 
-##### Private Project
+#### Private Project
 
 - No public visibility
 - Authorised access only
 - Unique URL
 - Mostly used for non-public development
 
-#### Team
+### Team
 
 A group of people responsible for development of project(s) and include developers, quality analysts (testers), scrum master, PO, deployer or any stakeholder who has any interest in the project. A single project can contain multiple teams. Only administrators can make changes to team.
 
-#### Board
+## Board
 
 Boards are used to defining tasks/work items, report bugs, track progress, share user stories, reporting, etc.
 
@@ -101,7 +101,7 @@ A collection of work items to be developed in the future. It is used to quickly 
 **Kanban Board**
 Kanban is a japanese word for 'Visual Signals' and these signals are used to display several units in a way that user can identify each item state by looking at the unit's visual state. Various colors, positions or other designs are used in Kanban board to make it easy for user to understand.
 
-#### Basic Process
+### Basic Process
 
 **Work Flow in Basic process**
 ToDo => In Progress => Done
@@ -112,7 +112,7 @@ ToDo => In Progress => Done
 - Issue - An epic may contain multiple issues like bug, user story, improvement, etc. e.g. Membership may need login, signup, forget password, reset password, etc. requirements
 - Task - For each issue, we can have multiple tasks depending on the nature of the issue. Each task will have a defined work of a particular nature. e.g. for completing each of the above issues, we need to create/change database tables, develop methods for each of the issue, consume the methods at relevant places, etc.
 
-#### Agile Process
+### Agile Process
 
 **Work Flow in Agile process**
 New => Active => Resolved => Closed
