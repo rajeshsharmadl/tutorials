@@ -127,7 +127,22 @@ New => Active => Resolved => Closed
 - Test Case - Test cases are used by QA for proper testing of the product.
 - Issue - It is any thing which is needed in the product but is not part of standard work flow and can not be clubbed with work items.
 
-#### CMMI Process (Capability Maturity Model Integration)
+### Scrum Process
+
+**Work Flow in Scrum process**
+New => Active => Resolved => Closed
+
+**Work items in Scrum process**
+
+- Epic - It contains major work items needed in the product. It represents a business initiative. It is considered inside a portfolio backlog.
+- Feature - These are the shippable component of a software. These are enhancements needed in the product to improve user experience. An epic may contain multiple features.
+- User Story - These are the user requirements. A user story is the actual requirement/implementation of a feature requirement.
+- Bug - It is a wrong implementation or incorrect piece of code.
+- Task - It is the smallest unit of work needed to be done for accomplishment of work item.
+- Test Case - Test cases are used by QA for proper testing of the product.
+- Issue - It is any thing which is needed in the product but is not part of standard work flow and can not be clubbed with work items.
+
+### CMMI Process (Capability Maturity Model Integration)
 
 **Work flow in CMMI process**
 Proposed (items to work on) => Active (when work started) => Resolved (when task is complete)
