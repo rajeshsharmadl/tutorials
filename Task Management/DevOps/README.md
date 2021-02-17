@@ -1,39 +1,12 @@
 # DevOps
 
----
-
-A culture (not a tool, technology or methodology) of close integration between development, QA & operation teams for smooth development, test and deployment with agility.
+A culture/system (not a tool, technology or methodology) of close integration between development, QA & operation teams for smooth development, test and deployment with agility.
 
 > It is an integration of people, process and products to provide maximum value ratio to customer.
 
 > **DevOps Portal** > [https://dev.azure.com](https://dev.azure.com)
 
-#### SDLC (Software Development Life Cycle)
-
-| Business Team | Development Team      | Operations Team              |
-| ------------- | --------------------- | ---------------------------- |
-| Planning      | **Dev**elopment       | **Op**eration**s**           |
-|               | Code -> Build -> Test | Deploy -> Operate -> Monitor |
-
-Each DevOps culture defines and provides tools to manage tasks, code, tests and deployment in their own way. Once you setup a DevOps environment, development and deployment teams along with stake holders benefit from it. It brings agility to entire SDLC.
-
-#### DevOps Services
-
-- Boards - Write stories, tasks, bugs, progress, to-do, etc. using agile board/kanban board
-- Repos - Manage code versioning using git/tfs
-- Pipeline - Automation (CI/CD) is available
-- Test Plans - Automates/Manual testing can be managed
-- Artifacts - Collection of packages available from private/public repos required during development for working of project
-
-| VSTS (Visual Studio Team Services) | Azure DevOps Services |
-| ---------------------------------- | --------------------- |
-| Work                               | Boards                |
-| Code                               | Repos                 |
-| Build & Release                    | Pipelines             |
-| Test                               | Test Plans            |
-| Packages                           | Artifacts             |
-
-## Organization
+### Organization
 
 It is a collection of related projects. Each DevOps account can have multiple organizations. Organizations can also be made as/for subgroups as it is easy to separate and handle large number of projects. Each organization have its owl URL e.g. https://dev.azure.com/{organization-name}.
 
@@ -60,11 +33,41 @@ It is a collection of related tasks. This is where entire product development is
 
 A group of people responsible for development of project(s) and include developers, quality analysts (testers), scrum master, PO, deployer or any stakeholder who has any interest in the project. A single project can contain multiple teams. Only administrators can make changes to team.
 
-## Board
+### DevOps Services
+
+Before going to DevOps services, first we understand about the Software Development Life Cycle for any project. It contains below sections, all the requirements go through.
+
+**SDLC (Software Development Life Cycle)**
+
+| Business Team | Development Team      | Operations Team              |
+| ------------- | --------------------- | ---------------------------- |
+| Planning      | **Dev**elopment       | **Op**eration**s**           |
+|               | Code -> Build -> Test | Deploy -> Operate -> Monitor |
+
+Each DevOps culture defines and provides tools to manage tasks, code, tests and deployment in their own way. Once you setup a DevOps environment, development and deployment teams along with stake holders benefit from it. It brings agility to entire SDLC.
+
+Azure DevOps provides five sections to manage entire SDLC. These are listed below:
+
+- Boards - Write stories, tasks, bugs, progress, to-do, etc. using Basic, Agile, Scrum or CMMI work process with kanban board
+- Repos - Manage code versioning using git/tfs
+- Pipeline - Automation (CI/CD) is available
+- Test Plans - Automated/Manual testing can be managed
+- Artifacts - Collection of packages available from private/public repos required during development for working of project
+
+**Azure DevOps vs Visual Studio Team Services (VSTS)**
+| VSTS (Visual Studio Team Services) | Azure DevOps Services |
+| ---------------------------------- | --------------------- |
+| Work | Boards |
+| Code | Repos |
+| Build & Release | Pipelines |
+| Test | Test Plans |
+| Packages | Artifacts |
+
+### Board
 
 Boards are used to defining tasks/work items, report bugs, track progress, share user stories, reporting, etc.
 
-**Uses of Board**
+**Use of Board**
 
 - Manage and track work
 - Provides a clear picture of tasks undertaken/in progress/completed by team members
@@ -76,8 +79,8 @@ Boards are used to defining tasks/work items, report bugs, track progress, share
 **Who will work on Board:**
 
 - Entire team
-- Development team will work related to their tasks, bugs, features, etc.
 - Product owner (PO) will manage backlog
+- Development/QA team will work related to their tasks, bugs, features, etc.
 - Stakeholder will see the progress
 - Scrum master will get various reports pertaining to progress of project
 
@@ -91,7 +94,7 @@ Work flow is various stages of tasks of product development. Multiple tasks can 
 Work item is a unit of work which needs to be done in a product. Multiple items co-exist during product development.
 
 **Backlog**
-A collection of work items to be developed in the future. It is used to quickly define a requirement which is yet to be started.
+A collection of all work items to be developed in a project. It is used to quickly define a requirement which is needs to be completed.
 
 **Types of Backlog**
 
@@ -101,7 +104,9 @@ A collection of work items to be developed in the future. It is used to quickly 
 **Kanban Board**
 Kanban is a japanese word for 'Visual Signals' and these signals are used to display several units in a way that user can identify each item state by looking at the unit's visual state. Various colors, positions or other designs are used in Kanban board to make it easy for user to understand.
 
-### Basic Process
+#### Basic Process
+
+This is the most basic process type of Azure DevOps among all process types. It provides only three work item types which are enough for a small or simple project.
 
 **Work Flow in Basic process**
 ToDo => In Progress => Done
@@ -112,7 +117,9 @@ ToDo => In Progress => Done
 - Issue - An epic may contain multiple issues like bug, user story, improvement, etc. e.g. Membership may need login, signup, forget password, reset password, etc. requirements
 - Task - For each issue, we can have multiple tasks depending on the nature of the issue. Each task will have a defined work of a particular nature. e.g. for completing each of the above issues, we need to create/change database tables, develop methods for each of the issue, consume the methods at relevant places, etc.
 
-### Agile Process
+#### Agile Process
+
+This is a project type providing more elaborated collection of work items (seven work item types) using which we can document required tasks in a more refined manner.
 
 **Work Flow in Agile process**
 New => Active => Resolved => Closed
@@ -125,33 +132,51 @@ New => Active => Resolved => Closed
 - Bug - It is a wrong implementation or incorrect piece of code.
 - Task - It is the smallest unit of work needed to be done for accomplishment of work item.
 - Test Case - Test cases are used by QA for proper testing of the product.
-- Issue - It is any thing which is needed in the product but is not part of standard work flow and can not be clubbed with work items.
+- Issue - It is any thing which is needed in the product but is not part of standard work flow and can not be clubbed with other work items.
 
-### Scrum Process
+#### Scrum Process
 
 **Work Flow in Scrum process**
-New => Active => Resolved => Closed
+New => Approved => Committed => Done
 
 **Work items in Scrum process**
 
 - Epic - It contains major work items needed in the product. It represents a business initiative. It is considered inside a portfolio backlog.
 - Feature - These are the shippable component of a software. These are enhancements needed in the product to improve user experience. An epic may contain multiple features.
-- User Story - These are the user requirements. A user story is the actual requirement/implementation of a feature requirement.
+- Product Backlog Item - These are the user requirements. A product backlog item is the actual requirement/implementation of a feature requirement.
+- Bug - It is a wrong implementation or incorrect piece of code.
+- Task - It is the smallest unit of work needed to be done for accomplishment of work item.
+- Test Case - Test cases are used by QA for proper testing of the product.
+- Impediment - It is any thing which is needed in the product but is not part of standard work flow and can not be clubbed with work items.
+
+#### CMMI Process (Capability Maturity Model Integration)
+
+**Work flow in CMMI process**
+Proposed => Active => Resolved => Closed
+
+**Work items in CMMI process**
+
+- Epic - It contains major work items needed in the product. It represents a business initiative. It is considered inside a portfolio backlog.
+- Feature - These are the shippable component of a software. These are enhancements needed in the product to improve user experience. An epic may contain multiple features.
+- Requirement - These are the user requirements. A requirement is the actual implementation of a feature required.
 - Bug - It is a wrong implementation or incorrect piece of code.
 - Task - It is the smallest unit of work needed to be done for accomplishment of work item.
 - Test Case - Test cases are used by QA for proper testing of the product.
 - Issue - It is any thing which is needed in the product but is not part of standard work flow and can not be clubbed with work items.
+- Change Request - It comes after a work is complete and is valid but needs to impelement something else.
+- Review - This is a request for review of an option pre/post completion.
+- Risk - It is a risk assessment point regarding implementation of an option or feature required.
 
-### CMMI Process (Capability Maturity Model Integration)
+**Inherited Process**
 
-**Work flow in CMMI process**
-Proposed (items to work on) => Active (when work started) => Resolved (when task is complete)
+We can also create custom process type from existing four types (Basic, Agile, Scrum or CMMI). As we can not change things in default process types, custom process types enable us to do that. Inherited process can be created inside Organization Settings -> Boards -> Process. Hover on an existing process and select 'Create inherited process' option from context menu for the process (3 dots on the process entry).
 
-**Work items in CMMI process**
+**Custom work items**
+Each work process some work item types but we can not create custom work item types inside pre-defined work processes. To create custom work item type, we first need to create an inherited work process and inside that, we get the option to create new work item type.
 
-#### Fields/Properties of a work item with Basic process
+#### Fields/Properties of a work item (shared or exclusive)
 
-- Title - Test containing 255 characters or less. It can be modified later
+- Title - Test containing 255 characters or less. It can be modified later.
 - AssignedTo - Team members are assigned the work items so that the development progress can be tracked by all the team members including the assignee. If there is a change/bug/query related to work item completed, allowed members can add the change/bug/query in the work item and change the status so that assigned member can resolve the issue which he can track by using the kanban board
 - State - Represents the current state of work item i.e. ToDo, Doing or Done
 - Reason - Reason is needed which changing the work item state
