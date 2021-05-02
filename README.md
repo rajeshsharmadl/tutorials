@@ -23,7 +23,6 @@ In context of web development, I recomment following path. However, it is not li
     1. ReactJS >> NextJs
     2. Angular
     3. Svelte
-  . 
 - Code Version System
   1. Git
   2. SVN
