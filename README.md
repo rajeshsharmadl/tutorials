@@ -19,7 +19,7 @@ In context of web development, I recomment following path. However, it is not li
   2. Python
   3. PHP
 - Frameworks
-  . Client Side
+  - Client Side
     1. ReactJS >> NextJs
     2. Angular
     3. Svelte
