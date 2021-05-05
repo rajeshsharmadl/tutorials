@@ -5,7 +5,8 @@
 <div style="text-align: justify;">As any person begins to learn, there is a learning path which should be followed from the start. This ensures that he gets the relevent knowledge in an order which will maximize the chances of success. Many of the times, this learning path is not ensured by anyone. The learner later comes to know various things which he should have learned earlier. This document is just a small step in this idea. If even a single person gets benefit from it, the idea is a success.</div>
 
 ##### Software Development
-In context of web development, I recomment following path. However, it is not limited to web development and can be used in various other developments. Some tools/technologies can even be used with other domains also.
+
+In context of web development, I recomment following path. Out of these tools/technologies, some can even be used with other domains also.
 
 - Beginning
   1. HTML
@@ -23,8 +24,13 @@ In context of web development, I recomment following path. However, it is not li
     1. ReactJS >> NextJs
     2. Angular
     3. Svelte
+  - Server Side
+    1. Dotnet (C#, VB.net, F#, etc.)
+    1. Dotnet Core (C#, VB.net, F#, etc.)
+    1. Codeigniter (PHP)
+    1. Laravel (PHP)
 - Code Version System
-  1. Git
+  1. Git + Github
   2. SVN
 - Task Management
   1. Azure Devops Boards
@@ -37,7 +43,11 @@ In context of web development, I recomment following path. However, it is not li
 - CI/CD (Continuous Integration/Continuous Deployment)
   1. Azure Devops Pipelines
   2. Github Workflow
-  1. [Azure DevOps](https://azure.microsoft.com/en-in/services/devops/)
-2. [Git](https://git-scm.com/)
-3. [C# (C Sharp)](https://docs.microsoft.com/en-us/dotnet/csharp/)
-4. [ASP.net](https://dotnet.microsoft.com/apps/aspnet)
+  3. [Azure DevOps](https://azure.microsoft.com/en-in/services/devops/)
+
+**Important Links**
+
+1. [Git](https://git-scm.com/)
+1. [C# (C Sharp)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+1. [ASP.net](https://dotnet.microsoft.com/apps/aspnet)
+1. [Codeigniter]()
