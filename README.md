@@ -6,12 +6,15 @@
 
 ##### Software Development
 
-In context of web development, I recomment following path. Out of these tools/technologies, some can even be used with other domains also.
+In context of web development, I recommend following path. Out of these tools/technologies, some can even be used with other domains also.
 
 - Beginning
   1. HTML
   2. CSS
   3. Javascript
+- Code Version System
+  1. Git + Github
+  2. SVN
 - Tools
   1. Visual Studio (Dotnet, Dotnet Core, Angular, React)
   2. Visual Studio Code (Visual Studio + many more)
@@ -24,14 +27,13 @@ In context of web development, I recomment following path. Out of these tools/te
     1. ReactJS >> NextJs
     2. Angular
     3. Svelte
+    4. jQuery
   - Server Side
     1. Dotnet (C#, VB.net, F#, etc.)
     1. Dotnet Core (C#, VB.net, F#, etc.)
+    1. Xamarin (Mobile Apps)
     1. Codeigniter (PHP)
     1. Laravel (PHP)
-- Code Version System
-  1. Git + Github
-  2. SVN
 - Task Management
   1. Azure Devops Boards
   2. Github Projects/Issues
